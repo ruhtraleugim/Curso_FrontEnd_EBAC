@@ -1,0 +1,139 @@
+<<<<<<< HEAD
+/*geral*/
+    *{
+        padding: 0;
+        margin: 0;
+        border: 0;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+    h2{
+        font-size: 40px;
+        margin-left: 120px;
+    }
+    p{
+        text-indent: 50px;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+/*Header*/
+    header {
+        padding: 16px 0;
+        background-color: #08014f;
+        color: azure;
+        font-size: 24px;
+    }
+    header nav li , h1{
+        display: inline;
+        margin-left: 16px; 
+    }
+    header nav li a,h1 a{
+        color: azure;
+    }
+    header .conteiner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .conteiner{
+        max-width: 1280px ;
+        width: 100%;
+        margin: auto;
+    }
+    .conteiner ul li{
+        display: inline ;
+        padding: 12px;
+        }
+
+    .conteiner ul{
+        max-width: fit-content;
+    }
+
+/*Conteudo*/
+    .rpg{
+        max-width: 720px;
+        margin: 5% 25% ;
+    }
+
+    .rpg img{
+        padding:2% 30%;
+    }
+    
+    .botão{
+        border-radius: 5px;
+    }
+    .botão:hover{
+        background-color: #100494;
+        cursor: pointer;
+    }
+=======
+/*geral*/
+    *{
+        padding: 0;
+        margin: 0;
+        border: 0;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+    h2{
+        font-size: 40px;
+        margin-left: 120px;
+    }
+    p{
+        text-indent: 50px;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+/*Header*/
+    header {
+        padding: 16px 0;
+        background-color: #08014f;
+        color: azure;
+        font-size: 24px;
+    }
+    header nav li , h1{
+        display: inline;
+        margin-left: 16px; 
+    }
+    header nav li a,h1 a{
+        color: azure;
+    }
+    header .conteiner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .conteiner{
+        max-width: 1280px ;
+        width: 100%;
+        margin: auto;
+    }
+    .conteiner ul li{
+        display: inline ;
+        padding: 12px;
+        }
+
+    .conteiner ul{
+        max-width: fit-content;
+    }
+
+/*Conteudo*/
+    .rpg{
+        max-width: 720px;
+        margin: 5% 25% ;
+    }
+
+    .rpg img{
+        padding:2% 30%;
+    }
+    
+    .botão{
+        border-radius: 5px;
+    }
+    .botão:hover{
+        background-color: #100494;
+        cursor: pointer;
+    }
+>>>>>>> origin/master

@@ -1,0 +1,226 @@
+<<<<<<< HEAD
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #08014f;
+    color: azure;
+    font-size: 24px;
+}
+header nav li {
+    display: inline;
+    margin-left: 16px; 
+}
+header nav li a{
+    color: azure;
+    text-decoration:none;
+}
+
+section .conteiner div a img{
+    height: 26px;
+}
+section .conteiner ul li{
+    display: inline;
+    margin-right: 10px;
+}
+.social-links li a {
+    display: block;
+    text-decoration: none;
+}
+.conteiner {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .conteiner , section .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.brands-list img{
+    height: 24px;
+}
+.brands-list li{
+    display: inline;
+}
+
+section .conteiner{
+    align-items: flex-start;
+}
+section .conteiner{
+
+}
+section {
+    padding : 24px
+}
+section p{
+    margin-bottom: 16px;
+}
+section .front-line{
+margin-right: 32px
+}
+
+#contact .conteiner{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-methods div #endereço{
+    display: block;    
+}
+
+form input , textarea,button{
+    display: block;
+    width: 320px;
+    
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea{
+    height: 90px;
+    resize: none;
+}
+form input{
+    height: 50px;
+}
+
+form button {
+    height: 50px;
+    background-color: #08014f;
+    color: azure;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #0c027f;
+}
+
+footer {
+    background-color: #08014f;
+    color: azure;
+    padding: 16px 0;
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #08014f;
+    color: azure;
+    font-size: 24px;
+}
+header nav li {
+    display: inline;
+    margin-left: 16px; 
+}
+header nav li a{
+    color: azure;
+    text-decoration:none;
+}
+
+section .conteiner div a img{
+    height: 26px;
+}
+section .conteiner ul li{
+    display: inline;
+    margin-right: 10px;
+}
+.social-links li a {
+    display: block;
+    text-decoration: none;
+}
+.conteiner {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .conteiner , section .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.brands-list img{
+    height: 24px;
+}
+.brands-list li{
+    display: inline;
+}
+
+section .conteiner{
+    align-items: flex-start;
+}
+section .conteiner{
+
+}
+section {
+    padding : 24px
+}
+section p{
+    margin-bottom: 16px;
+}
+section .front-line{
+margin-right: 32px
+}
+
+#contact .conteiner{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-methods div #endereço{
+    display: block;    
+}
+
+form input , textarea,button{
+    display: block;
+    width: 320px;
+    
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea{
+    height: 90px;
+    resize: none;
+}
+form input{
+    height: 50px;
+}
+
+form button {
+    height: 50px;
+    background-color: #08014f;
+    color: azure;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #0c027f;
+}
+
+footer {
+    background-color: #08014f;
+    color: azure;
+    padding: 16px 0;
+>>>>>>> origin/master
+}
