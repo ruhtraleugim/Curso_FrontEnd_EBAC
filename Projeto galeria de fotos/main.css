@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #271986;
+    padding: 16px 0;
+    color: azure;
+    display: flex;
+    border-bottom:12px solid #170c60;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+header button{
+    margin-left: 16px;
+}
+
+form{
+    background-color: #a09c9c;
+    padding: 24px 0;
+    text-align: center;
+}
+form h2 {
+    margin-bottom: 16px;
+}
+
+input,button {
+    padding: 8px;
+}
+button{
+    background-color: #047320;
+    border: none;
+    font-weight: bold;
+    color: azure;
+    cursor: pointer;
+}
+#cancelButton{
+    background-color: maroon;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul li{
+    max-width: 25%;
+    list-style: none;
+    position: relative;
+    max-height: 280px;
+    overflow: hidden;
+}
+ul li img{
+    max-width: 100%;
+}
+
+.overlay-image-link{
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
